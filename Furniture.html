@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cart</title>
+	<link rel="stylesheet"   href="Assignment.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+<div class="header">
+	<div class="container">
+<div class="navbar">
+	<div class="logo">
+		AstroCamp
+	</div>
+	<nav>
+		<ul id="MenuItems">
+	         <li><a href="">Home</a> </li> 
+	       <li><a href="">Camping Equiments</a> </li>
+	        <li><a href="">Furniture</a> </li>
+	         <li><a href="">Reviews</a> </li>
+	           <li><a href="">Offers and Packages</a> </li>
+		</ul>
+	</nav>
+	<img src="cart.png" id="cart" alt="cart">
+	<img src="menu.png" class="menu-icon" alt="menu" onclick="menutoggle()">
+</div>
+   </div>
+</div>
+<div class="small-container">
+ 	<div class="row row-2" >
+ 		<h2>Furnitures</h2>
+ 		<select>
+ 			<option>Deafult Sorting</option>
+ 			<option>Sort by price</option>
+ 			<option>Sort by popularity</option>
+ 			<option>Sort by rating</option>
+ 			<option>Sort by sale</option>
+ 		</select>
+ 	</div>
+ 	<div class="row">
+ 		<div class="col-4">
+ 			<img src="chair.jpg" alt="chair">
+ 			<h4>Blue and Gray tent with neon stripes</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-o"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="col-4">
+ 			<img src="chair1.jpg" alt="chair1">
+ 			<h4>Coleman Dome Tent for Camping</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half-o"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="col-4">
+ 			<img src="chair2.jpg" alt="chair2">
+ 			<h4>Red Tent</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="col-4">
+ 			<img src="table.jpg" alt="table">
+ 			<h4>2-Person Camping Tent</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half-o"></i>
+ 				<i class="fa fa-star-o"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 	</div>
+ 	<div class="row">
+ 		<div class="col-4">
+ 			<img src="table1.jpg" alt="table1">
+ 			<h4>Blue and Gray tent with neon stripes</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-o"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="col-4">
+ 			<img src="chair3.jpg" alt="chair3">
+ 			<h4>Blue and Gray tent with neon stripes</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half-o"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="col-4">
+ 			<img src="hammock.jpg" alt="hammock">
+ 			<h4>Blue and Gray tent with neon stripes</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="col-4">
+ 			<img src="knige.jpg" alt="knife">
+ 			<h4>Blue and Gray tent with neon stripes</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half-o"></i>
+ 				<i class="fa fa-star-o"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="row">
+ 		<div class="col-4">
+ 			<img src="table2.jpg" alt="table2">
+ 			<h4>Blue and Gray tent with neon stripes</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-o"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="col-4">
+ 			<img src="table3.jpg" alt="table3">
+ 			<h4>Blue and Gray tent with neon stripes</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half-o"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="col-4">
+ 			<img src="table4.jpg" alt="table4">
+ 			<h4>Blue and Gray tent with neon stripes</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ 		<div class="col-4">
+ 			<img src="chair4.jpg" alt="chair4">
+ 			<h4>Blue and Gray tent with neon stripes</h4>
+ 			<div class="rating">
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star"></i>
+ 				<i class="fa fa-star-half-o"></i>
+ 				<i class="fa fa-star-o"></i>
+ 			</div>
+ 			<p>$45.00</p>
+ 		</div>
+ </div>
+ <div class="page-btn">
+ 	<span>1</span>
+ 	<span>2</span>
+ 	<span>3</span>
+ 	<span>4</span>
+ 	<span>&#8594;</span>
+ </div>
+ </div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download App for Android and IOS mobile phone.</p>
+				<div class="app-logo">
+					<img src="play-store.png" alt="palystore">
+					<img src="app-store.png" alt="appstore">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-3">
+				<h3>Follow us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Youtube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">Copyright 2022</p>
+	</div>
+</div>
+
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+	 MenuItems.style.maxHeight = "0px";
+	  function menutoggle() {
+	   if (MenuItems.style.maxHeight == "0px") {
+	   	MenuItems.style.maxHeight = "200px"
+	   }
+	   else 
+	   {
+	   	MenuItems.style.maxHeight = "0px"
+	   }
+	  }
+</script>
+</body>
+</html> 
